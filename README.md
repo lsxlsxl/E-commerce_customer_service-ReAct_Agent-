@@ -1,4 +1,4 @@
-# 从零搭建一个 ReAct Agent
+# 从零搭建 ReAct Agent
 
 ## 项目介绍？
 
@@ -32,11 +32,13 @@
      conda create --name react_ai_agent python==3.9
      ```
    - 激活环境：
+   - 
      ```bash
      conda activate --name ReAct_Ai_Agent
      ```
 
 2. **安装项目依赖：**
+   
     - 按下面命令安装相关依赖库
    
      ```bash
@@ -46,13 +48,13 @@
 3. **修改配置文件：**
 
    - 本项目使用OpenAI在线模型，请在官网申请API后，在.env文件中替换自己的API-Key
-        ```bash
+     
+     ```bash
      API_KEY="xxxxx"
      ```
 
-4. **运行 ReAct Agent 代理**
+4. **运行**
 
    ```bash 
-   # 运行 main.py
    python main.py   
    ```
