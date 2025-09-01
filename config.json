@@ -1,0 +1,8 @@
+{
+    "openai": {
+        "use_model": true,
+        "model_name": "gpt-4o",
+        "temperature": 1.0,
+        "max_iterations": 10
+    }
+}
